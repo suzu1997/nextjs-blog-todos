@@ -3,7 +3,7 @@ import Link from 'next/link';
 import useSWR from 'swr';
 
 import { Layout } from '../components/Layout';
-import { Task } from '../components/task';
+import { Task } from '../components/Task';
 import { getAllTasksData } from '../lib/tasks';
 import { StateContextProvider } from '../context/StateContext';
 import { TaskForm } from '../components/TaskForm';
